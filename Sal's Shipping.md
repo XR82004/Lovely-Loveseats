@@ -1,5 +1,5 @@
-# Ground Shipping Project
-#Variable
+Ground Shipping Project
+Variable
 
 type_of_shipment = 1
 weight = 41.5
@@ -10,13 +10,13 @@ flat_charge_premium = 125.0
 
 if type_of_shipment == 0:
   print ("Comparision of prices: GroundShipping, GroundShipping Premium, and DroneShipping below >")
-# Shipping Strings
+ Shipping Strings
 type_of_ship_1 = " a Ground Shipping is "
 type_of_ship_2 = " a Ground Shipping Premium is "
 type_of_ship_3 = " a Drone Shipping is "
 total_text = "Your total for"
 
-# Shipping
+ Shipping
 if type_of_shipment == 1:
   print (total_text + type_of_ship_1) 
 if type_of_shipment == 2:
@@ -36,13 +36,13 @@ elif weight >= 6.0 and weight <= 10.0:
 elif weight >= 10.0:
   print ( weight* 4.75 + flat_charge)
 
-# Ground Shipping Premium
+ Ground Shipping Premium
 if weight_GSP == 0:
   print("")
 else:
   print (125.0)
 
-# Drone Shipping 
+ Drone Shipping 
 if weight_D == 0:
   print("")
 elif weight_D <= 2.0:
